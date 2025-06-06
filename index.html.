@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Sobre mí - Glow Belleza</title>
+  <title>Mi Primera Página - Glow Belleza</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -14,9 +14,16 @@
 
     header {
       background-color: #ff69b4;
-      color: purple;
+      color: white;
+      padding: 20px;
       text-align: center;
-      padding: 30px;
+    }
+
+    img {
+      width: 200px;
+      height: auto;
+      border-radius: 50%;
+      margin-top: 20px;
     }
 
     section {
@@ -25,26 +32,10 @@
     }
 
     p {
-      max-width: 700px;
+      max-width: 600px;
       margin: auto;
       font-size: 18px;
       line-height: 1.6;
-    }
-
-    .btn-regresar {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 12px 24px;
-      background-color: #ff69b4;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-      transition: background 0.3s ease;
-    }
-
-    .btn-regresar:hover {
-      background-color: #d64999;
     }
 
     footer {
@@ -60,28 +51,24 @@
 <body>
 
   <header>
-    <h1>Sobre mí</h1>
+    <h1>¡Bienvenidos a Glow Belleza!</h1>
+    <img src="https://via.placeholder.com/200" alt="Mi foto o logo">
   </header>
 
   <section>
     <p>
-      ¡Hola! Me llamo Romina Gabriela Rojas Mora, tengo 20 años y actualmente estudio <strong>Negocios Internacionales</strong>.  
+      Mis datos personales son que estudio <strong>Negocios Internacionales</strong>, tengo <strong>20 años</strong>,
+      me llama la atención especializarme en <strong>aduanas</strong> y deseo <strong>viajar por todo el mundo</strong>.
       <br><br>
-      Me apasiona el comercio exterior y tengo un gran interés por especializarme en <strong>aduanas</strong>. Mi sueño es viajar por todo el mundo, conocer distintas culturas y abrir caminos que conecten mercados y personas.
+      Mis contactos son: <strong>0963847196</strong>
       <br><br>
-      Esta página forma parte de mi proyecto personal <strong>Glow Belleza</strong>, donde combino mi lado emprendedor con mi gusto por el maquillaje.
-      <br><br>
-      <strong>Contacto directo:</strong><br>
-      📱 WhatsApp: 0963847196
+      Esta es mi primera página web publicada con GitHub Pages.
     </p>
-
-    <a class="btn-regresar" href="index.html">← Volver a Inicio</a>
   </section>
 
   <footer>
-    © 2025 Internacional Business. Todos los derechos reservados.
+    © 2025 Glow Belleza | Todos los derechos reservados
   </footer>
 
 </body>
 </html>
-
