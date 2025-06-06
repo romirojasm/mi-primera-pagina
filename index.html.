@@ -1,11 +1,87 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>Mi Primera P ́agina</title>
+  <meta charset="UTF-8">
+  <title>Sobre mí - Glow Belleza</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff0f5;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #ff69b4;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+
+    p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .btn-regresar {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 24px;
+      background-color: #ff69b4;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn-regresar:hover {
+      background-color: #d64999;
+    }
+
+    footer {
+      background-color: #ffc0cb;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
 </head>
+
 <body>
-<h1>¡Hola, mundo!</h1>
-<p>Esta es mi primera p ́agina web publicada con GitHub Pages.</p>
+
+  <header>
+    <h1>Sobre mí</h1>
+  </header>
+
+  <section>
+    <p>
+      ¡Hola! Me llamo [Tu Nombre], tengo 20 años y actualmente estudio <strong>Negocios Internacionales</strong>.  
+      <br><br>
+      Me apasiona el comercio exterior y tengo un gran interés por especializarme en <strong>aduanas</strong>. Mi sueño es viajar por todo el mundo, conocer distintas culturas y abrir caminos que conecten mercados y personas.
+      <br><br>
+      Esta página forma parte de mi proyecto personal <strong>Glow Belleza</strong>, donde combino mi lado emprendedor con mi gusto por el maquillaje.
+      <br><br>
+      <strong>Contacto directo:</strong><br>
+      📱 WhatsApp: 0963847196
+    </p>
+
+    <a class="btn-regresar" href="index.html">← Volver a Inicio</a>
+  </section>
+
+  <footer>
+    © 2025 Glow Belleza. Todos los derechos reservados.
+  </footer>
+
 </body>
 </html>
+
