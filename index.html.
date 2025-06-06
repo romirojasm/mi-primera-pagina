@@ -14,7 +14,7 @@
 
     header {
       background-color: #ff69b4;
-      color: white;
+      color: purple;
       text-align: center;
       padding: 30px;
     }
@@ -65,7 +65,7 @@
 
   <section>
     <p>
-      ¡Hola! Me llamo [Tu Nombre], tengo 20 años y actualmente estudio <strong>Negocios Internacionales</strong>.  
+      ¡Hola! Me llamo Romina Gabriela Rojas Mora, tengo 20 años y actualmente estudio <strong>Negocios Internacionales</strong>.  
       <br><br>
       Me apasiona el comercio exterior y tengo un gran interés por especializarme en <strong>aduanas</strong>. Mi sueño es viajar por todo el mundo, conocer distintas culturas y abrir caminos que conecten mercados y personas.
       <br><br>
@@ -79,7 +79,7 @@
   </section>
 
   <footer>
-    © 2025 Glow Belleza. Todos los derechos reservados.
+    © 2025 Internacional Business. Todos los derechos reservados.
   </footer>
 
 </body>
